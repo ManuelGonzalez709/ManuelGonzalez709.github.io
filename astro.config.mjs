@@ -5,7 +5,7 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'ManuelGonzalez709.github.io',
+    site: 'https://ManuelGonzalez709.github.io',
     vite: {
         plugins: [tailwindcss()]
     },
