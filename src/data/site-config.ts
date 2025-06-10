@@ -41,79 +41,41 @@ export type SiteConfig = {
 const siteConfig: SiteConfig = {
     website: 'https://ManuelGonzalez709.github.io',
     title: 'Portafolio de Manuel González',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    subtitle: 'Desarrollador Full Stack',
+    description: 'Portafolio personal de Manuel González: proyectos, artículos y más sobre desarrollo web, móvil y backend.',
     image: {
         src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        alt: 'Imagen destacada del portafolio de Manuel González'
     },
     headerNavLinks: [
-        {
-            text: 'Home',
-            href: '/'
-        },
-        {
-            text: 'Projects',
-            href: '/projects'
-        },
-        {
-            text: 'Blog',
-            href: '/blog'
-        },
-        {
-            text: 'Tags',
-            href: '/tags'
-        }
+        { text: 'Inicio', href: '/' },
+        { text: 'Proyectos', href: '/projects' },
+        { text: 'Blog', href: '/blog' },
+        { text: 'GitHub', href: 'https://github.com/ManuelGonzalez709' }
     ],
     footerNavLinks: [
-        {
-            text: 'About',
-            href: '/about'
-        },
-        {
-            text: 'Contact',
-            href: '/contact'
-        },
-        {
-            text: 'Terms',
-            href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
-        }
+        { text: 'Sobre mí', href: '/about' },
+        { text: 'Contacto', href: '/contact' },
+        { text: 'Términos', href: '/terms' }
     ],
     socialLinks: [
-        {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
-        },
-        {
-            text: 'Instagram',
-            href: 'https://instagram.com/'
-        },
-        {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
-        }
+        { text: 'LinkedIn', href: 'https://www.linkedin.com/in/manuel-gonzalez-4a6ab7212/' },
+        { text: 'GitHub', href: 'https://github.com/ManuelGonzalez709' }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
+        title: '¡Hola! Soy Manuel González',
+        text: "Soy desarrollador de aplicaciones web y multiplataforma con experiencia en React, Laravel, Spring Boot y más. Me apasiona construir soluciones prácticas y eficientes, tanto en frontend como backend. Aquí podrás ver algunos de mis proyectos y publicaciones técnicas. Échales un vistazo y no dudes en ponerte en contacto conmigo si quieres colaborar.",
         image: {
-            src: '/hero.jpeg',
-            alt: 'A person sitting at a desk in front of a computer'
+            src: '/dante-preview.jpg',
+            alt: 'Manuel González trabajando frente al ordenador'
         },
         actions: [
-            {
-                text: 'Get in Touch',
-                href: '/contact'
-            }
+            { text: 'Contáctame', href: '/contact' }
         ]
     },
     subscribe: {
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
+        title: 'Suscríbete a mi blog',
+        text: 'Recibe los últimos artículos sobre desarrollo web y mis proyectos personales directamente en tu correo.',
         formUrl: '#'
     },
     postsPerPage: 8,
