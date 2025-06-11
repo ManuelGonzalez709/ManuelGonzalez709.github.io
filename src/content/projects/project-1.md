@@ -5,8 +5,8 @@ publishDate: 'Jun 11 2025'
 isFeatured: true
 seo:
   image:
-    src: 'heli2.png',
-    alt: 'proyecto-whatsapp'
+    src: '/heli2.png'
+    alt: Módulo ERP WhattSapp
 ---
 
 ![Vista previa del proyecto](/heli2.png)
