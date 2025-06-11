@@ -1,61 +1,56 @@
 ---
-title: 'NeuralPlaylist - AI Generated Music Recommendations'
-description: Leveraging advanced algorithms and machine learning, NeuralPlaylist crafts personalized music recommendations based on users' preferences, moods, and even biometric data.
-publishDate: 'Oct 19 2023'
+title: 'Gestor de Inventario – Proyecto Grupal en Qualica RD'
+description: Desarrollo de una aplicación integral de gestión de inventario y tareas para almacén, realizada en equipo en la empresa Qualica RD durante las prácticas del Grado Superior de Desarrollo de Aplicaciones Web, aplicando Spring Boot y React.
+publishDate: 'Jun 11 2025'
+isFeatured: true
 seo:
   image:
-    src: '/project-4.jpg'
+    src: '/springreact.webp'
+    alt: Vista previa del proyecto grupal
 ---
 
-![Project preview](/project-4.jpg)
+![Vista previa del proyecto](/springreact.webp)
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+**Resumen del Proyecto:**
+Durante mi periodo de prácticas en la empresa **Qualica RD**, tuve la oportunidad de participar en un proyecto grupal junto a los compañeros SantaDv y rafa032. El objetivo fue desarrollar una solución multiplataforma para la gestión de inventario y tareas en almacén, utilizando **Spring Boot** para el backend y **React** para el frontend.
 
-**Project Overview:**
-NeuralPlaylist is a cutting-edge web application that redefines music discovery through the power of artificial intelligence. Leveraging advanced algorithms and machine learning, NeuralPlaylist crafts personalized music recommendations based on users' preferences, moods, and even biometric data.
+Este proyecto se realizó en el contexto del **Grado Superior de Desarrollo de Aplicaciones Web (DAW)**, contando ya con la titulación previa de **Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (DAM)**, lo que me permitió aportar un enfoque integral y aportar experiencia previa en entornos empresariales y trabajo en equipo.
 
-## Objectives
+## Objetivos
 
-1. Develop an intuitive and user-friendly web application that utilizes AI to curate personalized music playlists for users.
-2. Implement machine learning models that analyze user behavior, preferences, and physiological responses to create dynamic and context-aware music recommendations.
-3. Provide an immersive and interactive platform that enhances the music listening experience and introduces users to new genres and artists.
+1. Crear una aplicación eficiente y accesible para la gestión de inventario y tareas, tanto desde dispositivos móviles como de escritorio.
+2. Facilitar la colaboración y el control de stock en tiempo real, integrando funcionalidades de tareas, registros y notificaciones.
+3. Aprender y aplicar buenas prácticas de desarrollo colaborativo en un entorno profesional, utilizando control de versiones (Git) y metodologías ágiles.
 
-## Features
+## Tecnologías utilizadas
 
-1. **Biometric Mood Analysis:**
+- **Backend:** Spring Boot (Java) – API REST robusta y segura.
+- **Frontend:** React (JavaScript) – Interfaz de usuario dinámica y responsive.
+- **Control de versiones:** Git y GitHub para trabajo colaborativo.
+- **Otros:** CSS, integración multiplataforma (escritorio y móvil).
 
-- NeuralPlaylist incorporates biometric data analysis to understand users' moods and emotional states.
-- The AI algorithms use facial recognition and heart rate data to curate playlists that match users' current emotional states.
+## Funcionalidades clave
 
-2. **Personalized Playlists:**
+1. **Gestión de inventario y tareas:**
+   - Alta, baja y modificación de productos.
+   - Control de stock en tiempo real.
+   - Asignación y seguimiento de tareas para usuarios del almacén.
 
-- Users receive dynamic and highly personalized playlists based on their music history, preferences, and contextual factors.
-- NeuralPlaylist adapts to users' evolving tastes, introducing them to new genres and artists that align with their musical journey.
+2. **Usuarios y roles:**
+   - Sistema de autenticación y roles para trabajadores y administradores.
+   - Panel de control para administración y consulta de movimientos.
 
-3. **Context-Aware Recommendations:**
+3. **Colaboración y experiencia profesional:**
+   - Trabajo en equipo coordinado con SantaDv y rafa032, distribuyendo las tareas según las fortalezas de cada miembro.
+   - Uso de metodologías ágiles y reuniones periódicas para revisión del avance.
 
-- The application takes into account contextual factors such as time of day, weather, and location to tailor music recommendations.
-- Users receive playlists suited for specific occasions, moods, and environments.
+4. **Despliegue real y pruebas:**
+   - Aplicación desplegada y probada en un entorno real de empresa, asegurando su funcionamiento y utilidad práctica.
 
-4. **Collaborative Playlists:**
+## Resultado y aprendizaje
 
-- NeuralPlaylist encourages social interaction by allowing users to create and share collaborative playlists with friends.
-- Friends can contribute to the playlist, creating a shared musical experience that adapts to the collective preferences of the group.
+Este proyecto supuso un gran salto en mi experiencia profesional: consolidé mis conocimientos FullStack, aprendí a trabajar eficazmente en equipo y a enfrentarme a retos reales en un entorno empresarial. Haber cursado previamente el Grado Superior de Aplicaciones Multiplataforma (DAM) me permitió aportar soluciones transversales y entender tanto el backend como el frontend, aplicando buenas prácticas y asegurando la calidad del producto final.
 
-5. **Real-Time Feedback Integration:**
+---
 
-- Users can provide real-time feedback on song selections, allowing the AI to continuously refine recommendations.
-- The system learns from user interactions to enhance the accuracy of future music suggestions.
-
-## Technology Stack
-
-- Frontend: Vue.js for a dynamic and responsive user interface.
-- Backend: Flask for handling server-side logic and API integration.
-- Database: MongoDB for efficient storage and retrieval of user and music data.
-- AI Integration: PyTorch for developing machine learning models for music recommendation and biometric analysis.
-
-## Outcome
-
-NeuralPlaylist has redefined the music listening experience by harnessing the power of AI to provide users with hyper-personalized and context-aware playlists. The application not only adapts to users' musical preferences but also introduces them to new and exciting musical journeys based on their emotions and surroundings.
-
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+**Nota:** Proyecto realizado en equipo con SantaDv y rafa032 en la empresa Qualica RD durante las prácticas de DAW, empleando Spring Boot y React.
