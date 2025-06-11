@@ -1,64 +1,70 @@
 ---
-title: 'RoboChef - AI Powered Cooking Guide'
-description: RoboChef Recipe Assistant is a groundbreaking mobile application that leverages artificial intelligence to redefine the cooking experience.
-publishDate: 'Oct 12 2023'
+title: 'MarinaRent – Plataforma FullStack de alquiler de amarres y objetos de playa'
+description: Proyecto real desarrollado con Laravel (backend) y React (frontend), desplegado y funcional. Incluye autenticación, roles, reservas, gestión de usuarios y panel administrativo. Mi transición a FullStack tras su finalización.
+publishDate: 'Jun 11 2025'
 isFeatured: true
 seo:
   image:
-    src: '/project-3.jpg'
+    src: '/captura3.PNG'
+    alt: Vista previa del proyecto
 ---
 
-![Project preview](/project-3.jpg)
+![Vista previa del proyecto](/captura3.PNG)
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+**Resumen del Proyecto:**
+MarinaRent es una plataforma web integral para la gestión y alquiler de amarres y objetos de playa, creada como proyecto final de DAW y desplegada actualmente en producción. El sistema está compuesto por un backend robusto desarrollado en **Laravel** y un frontend moderno realizado en **React**, lo que me ha permitido convertirme en un desarrollador **FullStack** capaz de manejar tanto la lógica de servidor como la experiencia de usuario.
 
-**Project Overview:**
-RoboChef Recipe Assistant is a groundbreaking mobile application that leverages artificial intelligence to redefine the cooking experience. By combining machine learning with culinary expertise, RoboChef empowers users to explore a world of flavors, improve their cooking skills, and enjoy personalized recipe recommendations.
+## Objetivos
 
-## Objectives
+1. Crear una solución digital capaz de gestionar reservas de amarres y alquiler de objetos de playa de forma sencilla y segura.
+2. Integrar autenticación, roles de usuario (administrador y usuario común), panel de gestión y subida de imágenes.
+3. Desplegar la plataforma en producción, asegurando una experiencia fluida y profesional para usuarios reales.
 
-1. Develop a user-friendly mobile app that utilizes AI to provide personalized recipe suggestions based on user preferences, dietary restrictions, and available ingredients.
-2. Create an interactive cooking guide that assists users with step-by-step instructions, cooking tips, and real-time assistance.
-3. Implement a smart learning system that refines recommendations over time, adapting to users' taste preferences and dietary changes.
+## Tecnologías utilizadas
 
-## Features
+- **Backend:** Laravel (PHP) – API REST segura con autenticación Laravel Sanctum y roles.
+- **Frontend:** React (Vite) – Interfaz intuitiva y responsive.
+- **Estilos:** TailwindCSS / CSS Modules.
+- **Base de datos:** MySQL.
+- **Despliegue:** https://manu.cicloflorenciopintado.es/
 
-1. **AI-Powered Recipe Recommendations:**
+## Principales funcionalidades
 
-- RoboChef analyzes users' taste preferences, dietary restrictions, and ingredient availability to suggest personalized recipes.
-- Machine learning algorithms continuously learn from user interactions, refining recommendations for an increasingly tailored experience.
+1. **Gestión de usuarios y autenticación segura:**
+   - Registro, login y recuperación de contraseña.
+   - Autenticación vía tokens con Laravel Sanctum.
+   - Panel de administración para la gestión de usuarios (solo admin).
 
-2. **Ingredient Scanner and Inventory Management:**
+2. **Reservas y alquileres:**
+   - Creación, consulta y gestión de reservas por parte de usuarios.
+   - Consulta de disponibilidad y capacidad de amarres y objetos.
+   - Cancelación y modificación de reservas.
 
-- Users can scan their pantry and refrigerator using the app's built-in ingredient scanner.
-- RoboChef provides recipe suggestions based on available ingredients and helps users manage their inventory by suggesting recipes that utilize soon-to-expire items.
+3. **Gestión de publicaciones y objetos:**
+   - Alta, edición y eliminación de objetos de playa (hamacas, sombrillas, tablas...).
+   - Subida y gestión de imágenes asociadas a publicaciones.
 
-3. **Step-by-Step Cooking Guide:**
+4. **Roles diferenciados:**
+   - **Usuario común:** puede reservar, ver publicaciones y gestionar sus reservas.
+   - **Administrador:** accede a panel de control completo, puede crear y editar publicaciones, ver y gestionar todas las reservas y usuarios.
 
-- Each recipe includes a detailed step-by-step cooking guide with interactive multimedia elements.
-- Users can watch video tutorials, view images, and receive real-time tips from RoboChef as they progress through each cooking stage.
+5. **Despliegue y estructura real:**
+   - Plataforma desplegada y funcional accesible públicamente.
+   - Estructura profesional de base de datos con tablas de usuarios, reservas y publicaciones.
 
-4. **Nutritional Insights and Meal Planning:**
+## Estructura y endpoints destacados
 
-- RoboChef provides nutritional information for each recipe, helping users make informed decisions about their meals.
-- The app offers meal planning features, allowing users to create weekly menus based on dietary goals and preferences.
+- API RESTful clara y documentada.
+- Endpoints principales para CRUD de usuarios, reservas y publicaciones.
+- Subida segura de imágenes mediante multipart/form-data.
 
-5. **Voice-Activated Assistance:**
+## Resultado y aprendizaje
 
-- Users can interact with RoboChef using voice commands for a hands-free cooking experience.
-- The AI assistant responds to queries, provides cooking tips, and adapts recipes based on user preferences.
+El desarrollo y despliegue de MarinaRent marcó mi transición definitiva al perfil **FullStack**, permitiéndome dominar tanto el desarrollo backend como frontend, el despliegue y la gestión integral de un proyecto real. He adquirido experiencia en autenticación segura, arquitectura de APIs, integración de frontend y backend, gestión de roles y permisos, así como en el uso de tecnologías modernas de desarrollo web.
 
-## Technology Stack
+---
 
-- Frontend: Flutter for a seamless cross-platform mobile app experience.
-- Backend: Django for handling server-side logic and API integration.
-- Database: PostgreSQL for efficient data storage and retrieval.
-- AI Integration: TensorFlow for machine learning models powering recipe recommendations.
+**Nota:** Puedes consultar el proyecto en producción:  
+[https://manu.cicloflorenciopintado.es/](https://manu.cicloflorenciopintado.es/)
 
-> Ethan Donovan possesses a rare blend of technical expertise and creative flair. They skillfully transformed our vague ideas into a visually stunning and highly functional website. The end result exceeded our expectations, and we continue to receive compliments on the design and user experience.
-
-## Outcome
-
-RoboChef Recipe Assistant has revolutionized the way users approach cooking, making it an enjoyable and educational experience. The AI-powered features not only simplify the cooking process but also contribute to users' culinary growth, creating a personalized and evolving cooking journey.
-
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+Este proyecto es el reflejo de mi capacidad para afrontar retos completos, desde el backend hasta el frontend, y convertirme en un desarrollador FullStack preparado para el mundo profesional.
