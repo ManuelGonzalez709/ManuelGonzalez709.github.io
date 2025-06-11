@@ -1,66 +1,47 @@
 ---
-title: 'EcoBuddy: Sustainable Living App'
-description: EcoBuddy is a mobile app that gamifies sustainable living. Users can set eco-friendly goals, track their carbon footprint, and earn virtual rewards for adopting environmentally conscious habits.
-publishDate: 'Jan 02 2024'
+title: Módulo ERP para WhatsApp – Automatización de Comunicaciones Empresariales
+description: Desarrollo de un módulo innovador para ERP, capaz de integrar y automatizar el envío de mensajes, imágenes y comunicaciones personalizadas a través de WhatsApp, realizado en una empresa italiana durante mi formación de grado medio.
+publishDate: 'Jun 11 2025'
+isFeatured: true
 seo:
   image:
-    src: '/project-1.jpg'
-    alt: Project preview
+    src: 'heli2.png',
+    alt: 'proyecto-whatsapp'
 ---
 
-![Project preview](/project-1.jpg)
+![Vista previa del proyecto](/heli2.png)
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+**Resumen del Proyecto:**
+Durante mi formación de grado medio, llevé a cabo el desarrollo de un módulo avanzado para un ERP en una empresa italiana, cuyo objetivo principal era integrar la comunicación automatizada a través de WhatsApp, sin depender de la API oficial ni servicios externos como ChatGPT. 
 
-**Project Overview:**
-EcoBuddy is a revolutionary mobile application designed to make sustainable living accessible, engaging, and rewarding. With a focus on gamification and real-world impact, EcoBuddy encourages users to adopt eco-friendly habits, reduce their carbon footprint, and contribute to a healthier planet.
+## Objetivos
 
-## Objectives
+1. Permitir el envío de mensajes personalizados y formateados a través de WhatsApp directamente desde el ERP.
+2. Automatizar el envío de mensajes (texto e imágenes) programados para horas concretas.
+3. Facilitar la inserción y gestión de los datos de contacto mediante una interfaz web intuitiva.
 
-1. Develop a user-friendly mobile app that motivates individuals to adopt sustainable practices in their daily lives.
-2. Utilize gamification elements to make sustainable living fun and interactive.
-3. Provide educational resources and personalized challenges to empower users to make informed eco-conscious decisions.
+## Funcionalidades principales
 
-## Features
+1. **Integración directa con WhatsApp (sin API):**
+   - Envío de mensajes formateados y personalizados a contactos desde el propio ERP.
+   - Capacidad de enviar imágenes y archivos multimedia de forma sencilla.
+   - Preparación y programación de mensajes para enviarse automáticamente en fechas y horas específicas.
 
-1. **EcoScore and Challenges:**
+2. **Automatización y control:**
+   - Panel de control en HTML para facilitar la introducción de datos y la gestión de campañas de mensajería.
+   - Registro y seguimiento de los mensajes enviados, con historial accesible para el usuario.
 
-- Users are assigned an EcoScore based on their sustainable activities and choices.
-- Daily and weekly challenges encourage users to adopt new habits and compete with friends or the community to earn EcoPoints.
+3. **Tecnologías utilizadas:**
+   - **Python**: como motor principal para la automatización y la lógica de comunicación con WhatsApp.
+   - **HTML**: para el desarrollo de la interfaz web de introducción y gestión de datos en la base de datos.
 
-2. **Personalized Eco-Goals:**
+4. **Entorno profesional:**
+   - Proyecto desarrollado y desplegado en una empresa italiana, aplicando buenas prácticas de desarrollo y trabajo en equipo.
 
-- Users can set and track personalized eco-goals, such as reducing plastic usage, conserving water, or choosing eco-friendly transportation.
-- The app provides tips and suggestions to help users achieve their goals.
+## Resultado
 
-3. **Green Rewards Marketplace:**
+El módulo ERP para WhatsApp permitió a la empresa automatizar y optimizar la comunicación con sus clientes, mejorando notablemente la eficiencia y el seguimiento de las campañas. La solución demostró mi capacidad para resolver retos técnicos complejos, adaptarme a entornos profesionales y aportar valor real utilizando herramientas modernas y creativas.
 
-- EcoPoints earned through challenges and sustainable actions can be redeemed in a virtual Green Rewards Marketplace.
-- The marketplace offers discounts on eco-friendly products, services, and even contributions to environmental causes.
+---
 
-4. **Community Hub:**
-
-- A community feature allows users to connect, share their eco-friendly achievements, and inspire others.
-- Users can join local eco-groups, organize clean-up events, and collaborate on sustainability projects.
-
-5. **EcoEducator AI Assistant:**
-
-- An AI-powered assistant, EcoEducator, provides personalized eco-tips, facts, and information based on users' preferences and habits.
-- Users can chat with EcoEducator for instant advice on sustainable living.
-
-## Technology Stack
-
-- Frontend: React Native for cross-platform mobile app development.
-- Backend: Firebase for real-time data synchronization and user authentication.
-- Database: Firestore for scalable and flexible data storage.
-- AI Integration: Dialogflow for natural language processing and conversation with EcoEducator.
-
-## Outcome
-
-EcoBuddy has successfully created a community of environmentally conscious individuals who actively participate in sustainable living practices. The app not only educates and motivates users but also provides tangible rewards for their commitment to a greener lifestyle, fostering a positive impact on the environment.
-
-## Client Testimonial
-
-> We couldn't be happier with the results delivered by Ethan Donovan. From the initial concept discussions to the final product, their responsiveness and collaborative approach were impressive. Our startup's website now stands out, thanks to their creative input and commitment to excellence.
-
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+**Nota:** Este caso real muestra mi experiencia desarrollando soluciones tecnológicas innovadoras adaptadas a necesidades empresariales, combinando Python, HTML y conocimientos prácticos adquiridos durante mi formación.
