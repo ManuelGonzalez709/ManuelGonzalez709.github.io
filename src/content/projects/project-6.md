@@ -1,48 +1,65 @@
 ---
-title: 'Experiencia Profesional durante el Grado Superior de Desarrollo de Aplicaciones Multiplataforma (DAM)'
-description: Resumen de la experiencia adquirida a lo largo del ciclo formativo DAM, destacando el desarrollo de librerías en C#, la gestión de RPA con Automation Anywhere y la resolución de incidencias técnicas durante las prácticas en Accenture.
+title: 'Sistema Integral de Inventario y Logs – Proyecto Final de DAM'
+description: Desarrollo de una aplicación multiplataforma para gestión de inventario y visualización de logs, combinando una API en PHP y una interfaz de escritorio en JavaFX. Proyecto realizado como Trabajo Final de Grado Superior de Desarrollo de Aplicaciones Multiplataforma.
 publishDate: 'Jun 12 2025'
 isFeatured: true
 seo:
   image:
-    src: '/captura3.PNG'
-    alt: Experiencia profesional DAM: C#, RPA y soporte técnico en Accenture
+    src: '/captura5.png'
+    alt: Vista previa del sistema de inventario y logs
 ---
 
-![Experiencia DAM](/captura3.PNG)
+![Vista previa del sistema](/captura5.png)
 
-**Resumen:**
-Durante el **Grado Superior de Desarrollo de Aplicaciones Multiplataforma (DAM)** he adquirido una sólida experiencia técnica y profesional, participando en proyectos reales y enfrentando retos del mundo laboral. Mi formación ha estado marcada por la práctica en desarrollo de software, automatización de procesos y soporte técnico en entornos empresariales.  
-Cabe destacar que la mayor parte de estas experiencias se han realizado durante mis **prácticas profesionales en Accenture**, lo que me ha permitido aplicar los conocimientos del ciclo formativo en un entorno empresarial de primer nivel, trabajando junto a profesionales del sector y en proyectos reales para clientes.
+**Resumen del Proyecto:**
+Como parte del **proyecto final del Grado Superior de Desarrollo de Aplicaciones Multiplataforma (DAM)**, desarrollamos una solución completa para la **gestión de inventario** y la consulta de logs de una aplicación móvil, permitiendo la administración eficiente desde ordenador y dispositivos móviles.
 
-## Principales áreas de experiencia
+El sistema está compuesto por una **API desarrollada en PHP** que centraliza la lógica y la persistencia de datos, y una interfaz de escritorio implementada en **JavaFX**, que facilita la consulta y gestión de inventario, así como el acceso y visualización de los logs generados por la app móvil.
 
-1. **Desarrollo de librerías en C#:**
-   - Diseño y construcción de librerías reutilizables utilizando el lenguaje C# y el framework .NET.
-   - Implementación de funcionalidades genéricas, utilidades para aplicaciones empresariales y módulos de integración.
-   - Aplicación de buenas prácticas de programación orientada a objetos, patrones de diseño y documentación.
-   - Todo ello llevado a cabo en proyectos internos y para clientes durante las prácticas en Accenture.
+## Objetivos
 
-2. **Gestión y desarrollo de RPA con Automation Anywhere:**
-   - Automatización de procesos empresariales mediante la plataforma **Automation Anywhere**.
-   - Diseño y programación de bots para la realización de tareas repetitivas, extracción de datos y gestión documental.
-   - Optimización de flujos de trabajo y reducción de errores humanos en procesos críticos de negocio.
-   - Participación activa en equipos de automatización dentro de Accenture, colaborando en la mejora de procesos para diferentes áreas empresariales.
+1. Crear una aplicación robusta y sencilla para gestionar inventario desde diferentes plataformas.
+2. Permitir el registro y consulta de logs de la aplicación móvil, posibilitando la monitorización y análisis desde un ordenador.
+3. Integrar y aplicar conocimientos de desarrollo backend (PHP) y desktop (Java) adquiridos durante el ciclo formativo.
+4. Fomentar buenas prácticas de organización de código, trabajo modular y documentación.
 
-3. **Resolución de incidencias y soporte técnico:**
-   - Análisis, diagnóstico y resolución de incidencias técnicas en aplicaciones y sistemas.
-   - Comunicación efectiva con usuarios y equipos de desarrollo para identificar problemas y proponer soluciones.
-   - Documentación de incidencias y mejoras implementadas, asegurando la trazabilidad y el aprendizaje continuo.
-   - Ejecución de tareas de soporte y mantenimiento en entornos reales, siendo parte del equipo de soporte de Accenture.
+## Tecnologías utilizadas
 
-## Aprendizaje y competencias adquiridas
+- **Backend:** PHP – API REST para la gestión de inventario y logs.
+- **Frontend de escritorio:** JavaFX – Interfaz gráfica para gestión y visualización de datos en ordenador.
+- **Base de datos:** MySQL – Almacenamiento de productos y registros de logs.
+- **Control de versiones:** Git y GitHub para gestionar el desarrollo.
+- **Otros:** JSON para la comunicación entre la API y el cliente de escritorio, conexión HTTP.
 
-- Dominio en el desarrollo de software multiplataforma, especialmente en entornos Windows con C#.
-- Experiencia práctica en la automatización de procesos con herramientas RPA, contribuyendo a la eficiencia empresarial.
-- Capacidad para trabajar bajo presión, priorizar tareas y dar respuesta rápida a problemas técnicos en entornos productivos reales.
-- Habilidades de comunicación, trabajo en equipo y documentación profesional.
-- Integración en un entorno empresarial global como Accenture, aprendiendo metodologías ágiles y mejores prácticas del sector.
+## Funcionalidades clave
+
+1. **Gestión de inventario:**
+   - Alta, baja y modificación de productos en el almacén mediante la interfaz de escritorio.
+   - Consulta del stock actual y detalles de cada ítem.
+
+2. **Gestión y visualización de logs:**
+   - La aplicación móvil genera logs de actividad que se almacenan mediante la API.
+   - Desde la aplicación de escritorio en JavaFX se pueden consultar, filtrar y analizar los logs para detectar errores o anomalías.
+
+3. **Interfaz multiplataforma y comunicación:**
+   - La arquitectura permite el acceso y gestión desde distintos dispositivos, facilitando la movilidad y la supervisión remota.
+   - Utilización de solicitudes HTTP y respuestas en formato JSON para la interacción entre el front y el backend.
+
+4. **Autenticación y roles (si aplica):**
+   - Sistema básico de autenticación para restringir el acceso a usuarios autorizados.
+
+## Resultado y aprendizaje
+
+Este proyecto ha sido clave para consolidar mis conocimientos en desarrollo multiplataforma, integración de backend en PHP y construcción de aplicaciones de escritorio modernas con JavaFX. Además, me ha permitido experimentar la importancia de la gestión centralizada de registros (logs) para el mantenimiento y la mejora continua de aplicaciones móviles.
+
+Durante el ciclo formativo de DAM, también he tenido la oportunidad de:
+
+- **Desarrollar librerías en C#**, lo cual reforzó mis habilidades en programación orientada a objetos y en la creación de componentes reutilizables para aplicaciones empresariales.
+- **Gestionar procesos de automatización robótica (RPA) usando Automation Anywhere**, aprendiendo a optimizar flujos de trabajo repetitivos mediante bots y a integrarlos con sistemas existentes.
+- **Resolver incidencias técnicas**, mejorando mis competencias en análisis de errores, soporte técnico y mantenimiento de sistemas.
+
+El uso de **GitHub** durante el desarrollo ha reforzado mis habilidades en control de versiones, colaboración y documentación profesional.
 
 ---
 
-**Nota:** Toda esta experiencia ha sido adquirida y reforzada durante el transcurso del Grado Superior de DAM, combinando la formación académica con la práctica en entornos reales y el desarrollo de proyectos de software y automatización, especialmente durante las prácticas profesionales en Accenture.
+**Nota:** Proyecto realizado como Trabajo Final del Grado Superior de Desarrollo de Aplicaciones Multiplataforma (DAM), integrando API en PHP, aplicación JavaFX y funcionalidades de logs para la gestión eficiente de inventarios.
