@@ -1,56 +1,59 @@
 ---
-title: 'Gestor de Inventario – Proyecto Grupal en Qualica RD'
-description: Desarrollo de una aplicación integral de gestión de inventario y tareas para almacén, realizada en equipo en la empresa Qualica RD durante las prácticas del Grado Superior de Desarrollo de Aplicaciones Web, aplicando Spring Boot y React.
-publishDate: 'Jun 11 2025'
+title: 'Sistema Integral de Inventario y Logs – Proyecto Final de DAM'
+description: Desarrollo de una aplicación multiplataforma para gestión de inventario y visualización de logs, combinando una API en PHP y una interfaz de escritorio en JavaFX. Proyecto realizado como Trabajo Final de Grado Superior de Desarrollo de Aplicaciones Multiplataforma.
+publishDate: 'Jun 12 2025'
 isFeatured: true
 seo:
   image:
-    src: '/springreact.webp'
-    alt: Vista previa del proyecto grupal
+    src: '/image.png'
+    alt: Vista previa del sistema de inventario y logs
 ---
 
-![Vista previa del proyecto](/springreact.webp)
+![Vista previa del sistema](/image.png)
 
 **Resumen del Proyecto:**
-Durante mi periodo de prácticas en la empresa **Qualica RD**, tuve la oportunidad de participar en un proyecto grupal junto a los compañeros SantaDv y rafa032. El objetivo fue desarrollar una solución multiplataforma para la gestión de inventario y tareas en almacén, utilizando **Spring Boot** para el backend y **React** para el frontend.
+Como parte del **proyecto final del Grado Superior de Desarrollo de Aplicaciones Multiplataforma (DAM)**, desarrollamos una solución completa para la **gestión de inventario** y la consulta de logs de una aplicación móvil, permitiendo la administración eficiente desde ordenador y dispositivos móviles.
 
-Este proyecto se realizó en el contexto del **Grado Superior de Desarrollo de Aplicaciones Web (DAW)**, contando ya con la titulación previa de **Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (DAM)**, lo que me permitió aportar un enfoque integral y aportar experiencia previa en entornos empresariales y trabajo en equipo.
+El sistema está compuesto por una **API desarrollada en PHP** que centraliza la lógica y la persistencia de datos, y una interfaz de escritorio implementada en **JavaFX**, que facilita la consulta y gestión de inventario, así como el acceso y visualización de los logs generados por la app móvil.
 
 ## Objetivos
 
-1. Crear una aplicación eficiente y accesible para la gestión de inventario y tareas, tanto desde dispositivos móviles como de escritorio.
-2. Facilitar la colaboración y el control de stock en tiempo real, integrando funcionalidades de tareas, registros y notificaciones.
-3. Aprender y aplicar buenas prácticas de desarrollo colaborativo en un entorno profesional, utilizando control de versiones (Git) y metodologías ágiles.
+1. Crear una aplicación robusta y sencilla para gestionar inventario desde diferentes plataformas.
+2. Permitir el registro y consulta de logs de la aplicación móvil, posibilitando la monitorización y análisis desde un ordenador.
+3. Integrar y aplicar conocimientos de desarrollo backend (PHP) y desktop (Java) adquiridos durante el ciclo formativo.
+4. Fomentar buenas prácticas de organización de código, trabajo modular y documentación.
 
 ## Tecnologías utilizadas
 
-- **Backend:** Spring Boot (Java) – API REST robusta y segura.
-- **Frontend:** React (JavaScript) – Interfaz de usuario dinámica y responsive.
-- **Control de versiones:** Git y GitHub para trabajo colaborativo.
-- **Otros:** CSS, integración multiplataforma (escritorio y móvil).
+- **Backend:** PHP – API REST para la gestión de inventario y logs.
+- **Frontend de escritorio:** JavaFX – Interfaz gráfica para gestión y visualización de datos en ordenador.
+- **Base de datos:** MySQL – Almacenamiento de productos y registros de logs.
+- **Control de versiones:** Git y GitHub para gestionar el desarrollo.
+- **Otros:** JSON para la comunicación entre la API y el cliente de escritorio, conexión HTTP.
 
 ## Funcionalidades clave
 
-1. **Gestión de inventario y tareas:**
-   - Alta, baja y modificación de productos.
-   - Control de stock en tiempo real.
-   - Asignación y seguimiento de tareas para usuarios del almacén.
+1. **Gestión de inventario:**
+   - Alta, baja y modificación de productos en el almacén mediante la interfaz de escritorio.
+   - Consulta del stock actual y detalles de cada ítem.
 
-2. **Usuarios y roles:**
-   - Sistema de autenticación y roles para trabajadores y administradores.
-   - Panel de control para administración y consulta de movimientos.
+2. **Gestión y visualización de logs:**
+   - La aplicación móvil genera logs de actividad que se almacenan mediante la API.
+   - Desde la aplicación de escritorio en JavaFX se pueden consultar, filtrar y analizar los logs para detectar errores o anomalías.
 
-3. **Colaboración y experiencia profesional:**
-   - Trabajo en equipo coordinado con SantaDv y rafa032, distribuyendo las tareas según las fortalezas de cada miembro.
-   - Uso de metodologías ágiles y reuniones periódicas para revisión del avance.
+3. **Interfaz multiplataforma y comunicación:**
+   - La arquitectura permite el acceso y gestión desde distintos dispositivos, facilitando la movilidad y la supervisión remota.
+   - Utilización de solicitudes HTTP y respuestas en formato JSON para la interacción entre el front y el backend.
 
-4. **Despliegue real y pruebas:**
-   - Aplicación desplegada y probada en un entorno real de empresa, asegurando su funcionamiento y utilidad práctica.
+4. **Autenticación y roles (si aplica):**
+   - Sistema básico de autenticación para restringir el acceso a usuarios autorizados.
 
 ## Resultado y aprendizaje
 
-Este proyecto supuso un gran salto en mi experiencia profesional: consolidé mis conocimientos FullStack, aprendí a trabajar eficazmente en equipo y a enfrentarme a retos reales en un entorno empresarial. Haber cursado previamente el Grado Superior de Aplicaciones Multiplataforma (DAM) me permitió aportar soluciones transversales y entender tanto el backend como el frontend, aplicando buenas prácticas y asegurando la calidad del producto final.
+Este proyecto ha sido clave para consolidar mis conocimientos en desarrollo multiplataforma, integración de backend en PHP y construcción de aplicaciones de escritorio modernas con JavaFX. Además, me ha permitido experimentar la importancia de la gestión centralizada de registros (logs) para el mantenimiento y la mejora continua de aplicaciones móviles.
+
+El uso de **GitHub** durante el desarrollo ha reforzado mis habilidades en control de versiones, colaboración y documentación profesional.
 
 ---
 
-**Nota:** Proyecto realizado en equipo con SantaDv y rafa032 en la empresa Qualica RD durante las prácticas de DAW, empleando Spring Boot y React.
+**Nota:** Proyecto realizado como Trabajo Final del Grado Superior de Desarrollo de Aplicaciones Multiplataforma (DAM), integrando API en PHP, aplicación JavaFX y funcionalidades de logs para la gestión eficiente de inventarios.
