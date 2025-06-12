@@ -1,70 +1,40 @@
 ---
-title: Building an Impressive Front-End Developer Portfolio
-excerpt: In the competitive world of front-end development, a strong portfolio is your ticket to showcasing your skills, making a lasting impression on potential employers or clients, and advancing your career.
-publishDate: 'October 5 2023'
+title: Building Scalable Applications at WUL4
+excerpt: In 2025, I worked as a Full Stack Developer at WUL4 in Córdoba, where I contributed to the development of a complete web application using modern technologies like Spring Boot, React, and TailwindCSS.
+publishDate: 'Apr 5 2025'
 tags:
-  - Web
-  - Web development
+  - Experience
+  - Full Stack
+  - Java
+  - React
 seo:
   image:
-    src: '/post-2.jpg'
-    alt: Half open laptop on a desk
+    src: '/fullStack.webp'
+    alt: Code editor showing React and Java
 ---
 
-![Half open laptop on a desk](/post-2.jpg)
+![Code editor showing React and Java](/fullStack.webp)
 
-**Note:** This post was created using Chat GPT to demonstrate the features of the _[Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/)_.
+**Note:** This post details my full stack development experience at WUL4 in 2025.
 
-In the competitive world of front-end development, a strong portfolio is your ticket to showcasing your skills, making a lasting impression on potential employers or clients, and advancing your career. Your portfolio is your digital business card, and it should be a reflection of your talent, creativity, and expertise. In this post, we'll walk you through the steps to create an impressive front-end developer portfolio that will help you stand out in the crowd.
+At WUL4, I built a responsive web application by combining backend and frontend technologies:
 
-## 1. Showcase a Diverse Range of Projects
+- Developed a **RESTful API** with Spring Boot for managing data and business logic
+- Designed a responsive **frontend with React and TailwindCSS**
+- Used Git and GitHub for version control in a collaborative workflow
 
-Your portfolio should be a testament to your versatility. Include a variety of projects that demonstrate your skills in different areas of front-end development. Consider including projects like:
+## Skills Applied
 
-- **Responsive Websites:** Showcase your ability to create websites that adapt seamlessly to various screen sizes and devices.
+1. **Clean Code Practices:** Learned to structure both Java and JavaScript code for clarity and reusability.
+2. **Frontend-Backend Communication:** Understood how to design RESTful endpoints for a React frontend.
+3. **Team Collaboration:** Collaborated via GitHub with other developers and practiced agile methodologies.
 
-- **Interactive Web Applications:** Feature web applications that engage users with dynamic features and functionalities.
+## What I Found Challenging
 
-- **E-commerce Websites:** If you've worked on e-commerce sites, include them to demonstrate your expertise in handling complex web development tasks.
+1. **Syncing APIs with Frontend:** Ensuring consistent data flow between frontend and backend required careful planning.
+2. **UI Consistency:** TailwindCSS required precision in class management for consistent design.
+3. **Deployment Readiness:** Preparing the app for deployment added extra QA and configuration steps.
 
-- **Open Source Contributions:** Highlight your involvement in open-source projects or contributions to online coding communities.
+> Building full stack applications taught me how each layer contributes to the final product.
 
-## 2. Highlight Your Coding Skills
-
-Your portfolio should provide a clear view of your coding proficiency. Consider the following:
-
-- **Clean and Organized Code:** Present your code in a clean and well-organized manner. Use proper indentation, comments, and coding standards.
-
-- **Use of Version Control:** Showcase your use of version control systems like Git and GitHub to demonstrate your collaboration and code management skills.
-
-- **Code Samples:** Include snippets of code from your projects to give visitors an insight into your coding style and problem-solving abilities.
-
-## 3. Emphasize Responsive Design
-
-As a front-end developer, responsive design is paramount. Ensure that your portfolio itself is a shining example of responsive design. It should look and function flawlessly on a variety of devices, including desktops, tablets, and smartphones.
-
-## 4. User Experience (UX) Matters
-
-Front-end development is not just about writing code; it's about creating a great user experience. Explain your thought process behind the user interface (UI) and UX decisions you made in your projects. Discuss how you optimized performance and accessibility.
-
-## 5. Document Your Projects
-
-Accompany each project with a detailed description. Explain the project's goals, your role in it, the technologies and tools you used, and any challenges you overcame. This documentation provides context and depth to your work.
-
-## 6. Regularly Update Your Portfolio
-
-A stagnant portfolio can give the impression of inactivity or lack of progress. Regularly update your portfolio with your latest work and projects. Remove outdated or less impressive work to keep your portfolio relevant and impactful.
-
-## 7. Test and Optimize Load Times
-
-Slow-loading websites can turn visitors away. Ensure your portfolio loads quickly by optimizing images and using proper techniques to minimize load times.
-
-## 8. Seek Feedback
-
-Before finalizing your portfolio, seek feedback from peers, mentors, or online communities. Constructive criticism can help you refine your portfolio and make it even more impressive.
-
-## 9. Personalize Your Portfolio
-
-Your portfolio is not just about your work; it's also about you. Add a personal touch by including an **"About Me"** section that tells your story, your passions, and what makes you unique as a front-end developer.
-
-Remember, your front-end developer portfolio is an ongoing project. Keep refining it, stay up-to-date with the latest trends, and let it evolve as your skills and experience grow. An impressive portfolio not only serves as a testament to your abilities but also opens doors to exciting opportunities in the world of front-end development.
+This internship solidified my desire to grow as a full stack developer and confirmed my passion for delivering complete, functional applications.
