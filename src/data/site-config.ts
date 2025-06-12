@@ -54,7 +54,6 @@ const siteConfig: SiteConfig = {
         { text: 'GitHub', href: 'https://github.com/ManuelGonzalez709' }
     ],
     footerNavLinks: [
-        { text: 'Sobre mí', href: '/about' },
         { text: 'Contacto', href: '/contact' },
         { text: 'Términos', href: '/terms' }
     ],
