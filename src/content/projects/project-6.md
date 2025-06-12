@@ -5,11 +5,11 @@ publishDate: 'Jun 12 2025'
 isFeatured: true
 seo:
   image:
-    src: '/captura4.png'
+    src: '/captura5.png'
     alt: Vista previa del sistema de inventario y logs
 ---
 
-![Vista previa del sistema](/captura4.png)
+![Vista previa del sistema](/captura5.png)
 
 **Resumen del Proyecto:**
 Como parte del **proyecto final del Grado Superior de Desarrollo de Aplicaciones Multiplataforma (DAM)**, desarrollamos una solución completa para la **gestión de inventario** y la consulta de logs de una aplicación móvil, permitiendo la administración eficiente desde ordenador y dispositivos móviles.
@@ -51,6 +51,12 @@ El sistema está compuesto por una **API desarrollada en PHP** que centraliza la
 ## Resultado y aprendizaje
 
 Este proyecto ha sido clave para consolidar mis conocimientos en desarrollo multiplataforma, integración de backend en PHP y construcción de aplicaciones de escritorio modernas con JavaFX. Además, me ha permitido experimentar la importancia de la gestión centralizada de registros (logs) para el mantenimiento y la mejora continua de aplicaciones móviles.
+
+Durante el ciclo formativo de DAM, también he adquirido experiencia en:
+
+- **Desarrollo de librerías en C#**, creando componentes reutilizables y estructurados para proyectos en .NET.
+- **Automatización de procesos con RPA utilizando Automation Anywhere**, optimizando tareas repetitivas y mejorando la eficiencia operativa.
+- **Resolución de incidencias técnicas**, aplicando habilidades de diagnóstico, soporte y mantenimiento en entornos reales.
 
 El uso de **GitHub** durante el desarrollo ha reforzado mis habilidades en control de versiones, colaboración y documentación profesional.
 
