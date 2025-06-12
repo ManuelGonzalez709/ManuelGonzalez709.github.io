@@ -1,12 +1,12 @@
 ---
 title: 'Sistema Integral de Inventario y Logs – Proyecto Final de DAM'
 description: Desarrollo de una aplicación multiplataforma para gestión de inventario y visualización de logs, combinando una API en PHP y una interfaz de escritorio en JavaFX. Proyecto realizado como Trabajo Final de Grado Superior de Desarrollo de Aplicaciones Multiplataforma.
-publishDate: 'Jun 12 2025'
+publishDate: 'Jun 11 2025'
 isFeatured: true
 seo:
   image:
-    src: '/captura5.png'
-    alt: Vista previa del sistema de inventario y logs
+    src: '/springreact.webp'
+    alt: Vista previa del proyecto grupal
 ---
 
 ![Vista previa del sistema](/captura5.png)
