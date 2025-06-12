@@ -5,11 +5,11 @@ publishDate: 'Jun 12 2025'
 isFeatured: true
 seo:
   image:
-    src: '/captura5.png'
+    src: '/captura3.PNG'
     alt: Experiencia profesional DAM: C#, RPA y soporte técnico en Accenture
 ---
 
-![Experiencia DAM](/captura5.png)
+![Experiencia DAM](/captura3.PNG)
 
 **Resumen:**
 Durante el **Grado Superior de Desarrollo de Aplicaciones Multiplataforma (DAM)** he adquirido una sólida experiencia técnica y profesional, participando en proyectos reales y enfrentando retos del mundo laboral. Mi formación ha estado marcada por la práctica en desarrollo de software, automatización de procesos y soporte técnico en entornos empresariales.  
