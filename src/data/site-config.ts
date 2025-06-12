@@ -49,8 +49,8 @@ const siteConfig: SiteConfig = {
     },
     headerNavLinks: [
         { text: 'Inicio', href: '/' },
-        { text: 'Proyectos', href: '/projects' },
-        { text: 'Blog', href: '/blog' },
+        { text: 'Proyects', href: '/projects' },
+        { text: 'Expecience', href: '/blog' },
         { text: 'GitHub', href: 'https://github.com/ManuelGonzalez709' }
     ],
     footerNavLinks: [
