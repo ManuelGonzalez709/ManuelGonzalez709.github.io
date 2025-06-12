@@ -1,62 +1,59 @@
 ---
-title: 'PixelPerfect Art Gallery'
-description: PixelPerfect Art Gallery is an innovative online platform that transcends traditional art exhibition spaces.
-publishDate: 'Oct 25 2023'
+title: 'Sistema Integral de Inventario y Logs – Proyecto Final de DAM'
+description: Desarrollo de una aplicación multiplataforma para gestión de inventario y visualización de logs, combinando una API en PHP y una interfaz de escritorio en JavaFX. Proyecto realizado como Trabajo Final de Grado Superior de Desarrollo de Aplicaciones Multiplataforma.
+publishDate: 'Jun 12 2025'
 isFeatured: true
 seo:
   image:
-    src: '/project-5.jpg'
+    src: '/captura4.png'
+    alt: Vista previa del sistema de inventario y logs
 ---
 
-![Project preview](/project-5.jpg)
+![Vista previa del sistema](/captura4.png)
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+**Resumen del Proyecto:**
+Como parte del **proyecto final del Grado Superior de Desarrollo de Aplicaciones Multiplataforma (DAM)**, desarrollamos una solución completa para la **gestión de inventario** y la consulta de logs de una aplicación móvil, permitiendo la administración eficiente desde ordenador y dispositivos móviles.
 
-**Project Overview:**
-PixelPerfect Art Gallery is an innovative online platform that transcends traditional art exhibition spaces. This web application is dedicated to showcasing and celebrating pixel art in the form of Non-Fungible Tokens (NFTs), providing artists with a digital canvas to display their unique creations while ensuring secure ownership through blockchain technology.
+El sistema está compuesto por una **API desarrollada en PHP** que centraliza la lógica y la persistencia de datos, y una interfaz de escritorio implementada en **JavaFX**, que facilita la consulta y gestión de inventario, así como el acceso y visualización de los logs generados por la app móvil.
 
-## Objectives
+## Objetivos
 
-1. Create an immersive online gallery experience specifically tailored for pixel art enthusiasts and NFT collectors.
-2. Utilize blockchain technology to authenticate and secure ownership of digital artworks, ensuring a transparent and tamper-proof art marketplace.
-3. Foster a community of digital artists and art collectors, providing a platform for collaboration, appreciation, and exchange.
+1. Crear una aplicación robusta y sencilla para gestionar inventario desde diferentes plataformas.
+2. Permitir el registro y consulta de logs de la aplicación móvil, posibilitando la monitorización y análisis desde un ordenador.
+3. Integrar y aplicar conocimientos de desarrollo backend (PHP) y desktop (Java) adquiridos durante el ciclo formativo.
+4. Fomentar buenas prácticas de organización de código, trabajo modular y documentación.
 
-## Features
+## Tecnologías utilizadas
 
-1. **NFT Art Exhibition:**
+- **Backend:** PHP – API REST para la gestión de inventario y logs.
+- **Frontend de escritorio:** JavaFX – Interfaz gráfica para gestión y visualización de datos en ordenador.
+- **Base de datos:** MySQL – Almacenamiento de productos y registros de logs.
+- **Control de versiones:** Git y GitHub para gestionar el desarrollo.
+- **Otros:** JSON para la comunicación entre la API y el cliente de escritorio, conexión HTTP.
 
-- PixelPerfect features a curated exhibition of pixel art NFTs, showcasing a diverse range of styles, themes, and techniques.
-- Users can explore and appreciate the intricate details of each digital artwork in a visually stunning online gallery.
+## Funcionalidades clave
 
-2. **Blockchain Authentication:**
+1. **Gestión de inventario:**
+   - Alta, baja y modificación de productos en el almacén mediante la interfaz de escritorio.
+   - Consulta del stock actual y detalles de cada ítem.
 
-- Each pixel art piece is tokenized as an NFT on a blockchain, ensuring authenticity, provenance, and secure ownership.
-- Users can view the blockchain records to verify the origin and history of the digital artworks.
+2. **Gestión y visualización de logs:**
+   - La aplicación móvil genera logs de actividad que se almacenan mediante la API.
+   - Desde la aplicación de escritorio en JavaFX se pueden consultar, filtrar y analizar los logs para detectar errores o anomalías.
 
-3. **Virtual Art Auctions:**
+3. **Interfaz multiplataforma y comunicación:**
+   - La arquitectura permite el acceso y gestión desde distintos dispositivos, facilitando la movilidad y la supervisión remota.
+   - Utilización de solicitudes HTTP y respuestas en formato JSON para la interacción entre el front y el backend.
 
-- PixelPerfect hosts virtual art auctions, allowing users to bid on and acquire exclusive pixel art NFTs.
-- The auction platform provides a dynamic and engaging environment for art enthusiasts and collectors.
+4. **Autenticación y roles (si aplica):**
+   - Sistema básico de autenticación para restringir el acceso a usuarios autorizados.
 
-4. **Community Collaboration Spaces:**
+## Resultado y aprendizaje
 
-- Dedicated community spaces allow artists to connect, collaborate, and showcase their creative process.
-- Users can discuss techniques, share insights, and even collaborate on pixel art projects within the PixelPerfect community.
+Este proyecto ha sido clave para consolidar mis conocimientos en desarrollo multiplataforma, integración de backend en PHP y construcción de aplicaciones de escritorio modernas con JavaFX. Además, me ha permitido experimentar la importancia de la gestión centralizada de registros (logs) para el mantenimiento y la mejora continua de aplicaciones móviles.
 
-5. **Interactive Pixel Art Creation Workshop:**
+El uso de **GitHub** durante el desarrollo ha reforzado mis habilidades en control de versiones, colaboración y documentación profesional.
 
-- PixelPerfect provides a virtual workshop where users can create their own pixel art and potentially tokenize their creations as NFTs.
-- Artists can share their works with the community or submit them for consideration in future exhibitions.
+---
 
-## Technology Stack
-
-- Frontend: Angular for a dynamic and responsive user interface.
-- Backend: Node.js for handling server-side logic and API integration.
-- Database: Ethereum blockchain for storing NFT ownership and transaction details.
-- Smart Contracts: Solidity for developing blockchain smart contracts.
-
-## Outcome
-
-PixelPerfect Art Gallery has successfully created a digital haven for pixel art enthusiasts, providing a secure and engaging platform for artists and collectors alike. The integration of blockchain technology ensures transparency and authenticity in the world of digital art, fostering a vibrant community that appreciates the uniqueness and creativity of pixel art NFTs.
-
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+**Nota:** Proyecto realizado como Trabajo Final del Grado Superior de Desarrollo de Aplicaciones Multiplataforma (DAM), integrando API en PHP, aplicación JavaFX y funcionalidades de logs para la gestión eficiente de inventarios.
