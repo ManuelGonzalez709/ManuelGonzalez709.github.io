@@ -1,15 +1,15 @@
 ---
 title: 'Sistema Integral de Inventario y Logs – Proyecto Final de DAM'
 description: Desarrollo de una aplicación multiplataforma para gestión de inventario y visualización de logs, combinando una API en PHP y una interfaz de escritorio en JavaFX. Proyecto realizado como Trabajo Final de Grado Superior de Desarrollo de Aplicaciones Multiplataforma.
-publishDate: 'Jun 11 2025'
+publishDate: 'Jun 12 2025'
 isFeatured: true
 seo:
   image:
-    src: '/springreact.webp'
-    alt: Vista previa del proyecto grupal
+    src: '/captura4.png'
+    alt: Vista previa del sistema de inventario y logs
 ---
 
-![Vista previa del sistema](/captura5.png)
+![Vista previa del sistema](/captura4.png)
 
 **Resumen del Proyecto:**
 Como parte del **proyecto final del Grado Superior de Desarrollo de Aplicaciones Multiplataforma (DAM)**, desarrollamos una solución completa para la **gestión de inventario** y la consulta de logs de una aplicación móvil, permitiendo la administración eficiente desde ordenador y dispositivos móviles.
@@ -51,12 +51,6 @@ El sistema está compuesto por una **API desarrollada en PHP** que centraliza la
 ## Resultado y aprendizaje
 
 Este proyecto ha sido clave para consolidar mis conocimientos en desarrollo multiplataforma, integración de backend en PHP y construcción de aplicaciones de escritorio modernas con JavaFX. Además, me ha permitido experimentar la importancia de la gestión centralizada de registros (logs) para el mantenimiento y la mejora continua de aplicaciones móviles.
-
-Durante el ciclo formativo de DAM, también he tenido la oportunidad de:
-
-- **Desarrollar librerías en C#**, lo cual reforzó mis habilidades en programación orientada a objetos y en la creación de componentes reutilizables para aplicaciones empresariales.
-- **Gestionar procesos de automatización robótica (RPA) usando Automation Anywhere**, aprendiendo a optimizar flujos de trabajo repetitivos mediante bots y a integrarlos con sistemas existentes.
-- **Resolver incidencias técnicas**, mejorando mis competencias en análisis de errores, soporte técnico y mantenimiento de sistemas.
 
 El uso de **GitHub** durante el desarrollo ha reforzado mis habilidades en control de versiones, colaboración y documentación profesional.
 
