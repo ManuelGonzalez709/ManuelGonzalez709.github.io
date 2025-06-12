@@ -1,62 +1,72 @@
 ---
-title: CryptoTrader - Cryptocurrency Portfolio Manager
-description: CryptoTrader Dashboard is a comprehensive web application designed to empower cryptocurrency enthusiasts with tools to manage and optimize their digital asset portfolios.
-publishDate: 'Jan 10 2024'
+title: 'Gomoku – Juego Japonés Multijugador en la Web'
+description: Implementación web del clásico juego de estrategia japonés Gomoku, con soporte multijugador en tiempo real, desarrollado con PHP, JavaScript, CSS y HTML.
+publishDate: 'Jun 12 2025'
 isFeatured: true
 seo:
   image:
-    src: 'project-7.jpg'
+    src: '/gomoku.webp'
+    alt: Vista previa del proyecto Gomoku
 ---
 
-![Project preview](/project-7.jpg)
+![Vista previa del proyecto](/gomoku.webp)
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+**Resumen del Proyecto:**
+Gomoku es una versión web del tradicional juego de estrategia japonés, también conocido como "Cinco en línea". Este proyecto permite partidas multijugador en tiempo real, combinando tecnologías modernas para ofrecer una experiencia completa y dinámica directamente desde el navegador.
 
-**Project Overview:**
-CryptoTrader Dashboard is a comprehensive web application designed to empower cryptocurrency enthusiasts with tools to manage and optimize their digital asset portfolios. By providing real-time market data, analytics, and portfolio tracking, the dashboard offers a seamless experience for users to monitor and enhance their cryptocurrency investments.
+## Objetivos
 
-## Objectives
+1. Recrear el clásico juego Gomoku en una versión accesible y moderna, jugable desde cualquier dispositivo.
+2. Permitir partidas multijugador, gestión de usuarios y seguimiento de partidas.
+3. Aplicar buenas prácticas de desarrollo web fullstack, integrando tanto frontend como backend.
 
-1. Develop a user-friendly and feature-rich dashboard that consolidates real-time data from various cryptocurrency exchanges.
-2. Provide tools for users to analyze market trends, track their portfolio performance, and make informed investment decisions.
-3. Create a secure and efficient platform that ensures users have a holistic view of their cryptocurrency holdings.
+## Características principales
 
-## Features
+- **Multijugador en tiempo real:** Invita y compite contra otros usuarios en partidas online.
+- **Interfaz intuitiva y atractiva:** Diseño responsivo y fácil de usar para cualquier jugador.
+- **Tablero dinámico:** Actualización instantánea de movimientos y estado del juego.
+- **Gestión de usuarios:** Registro, inicio de sesión y seguimiento de partidas.
+- **Reglas clásicas:** Basado fielmente en las normas oficiales del juego Gomoku.
 
-1. **Multi-Exchange Integration:**
+## Tecnologías utilizadas
 
-- CryptoTrader Dashboard aggregates data from multiple cryptocurrency exchanges, allowing users to view their entire portfolio in one centralized location.
-- Real-time updates provide the latest market prices, trading volumes, and order book data.
+- **PHP:** Lógica de servidor, gestión de sesiones y almacenamiento de datos.
+- **JavaScript:** Interactividad y actualización dinámica del tablero.
+- **CSS:** Estilos y diseño responsivo para todo tipo de dispositivos.
+- **HTML:** Estructura de la interfaz de usuario.
 
-2. **Portfolio Analytics:**
+## Estructura del proyecto
 
-- Users can analyze their portfolio's performance through interactive charts and graphs.
-- The dashboard offers insights into historical performance, asset allocation, and profit/loss over time.
+```
+/ (raíz del proyecto)
+├── index.php
+├── tablero.php
+├── js/
+│   └── gomoku.js
+├── css/
+│   └── estilos.css
+├── assets/
+│   └── imágenes, iconos, etc.
+└── README.md
+```
 
-3. **Risk Management Tools:**
+## Instalación y ejecución
 
-- Advanced risk management tools help users assess the volatility and potential risks associated with their cryptocurrency investments.
-- Users receive alerts for significant market fluctuations or changes in their portfolio value.
+1. **Clona el repositorio:**
+   ```bash
+   git clone https://github.com/ManuelGonzalez709/Gomoku.git
+   cd Gomoku
+   ```
+2. **Configura tu entorno:**
+   - Asegúrate de tener PHP y un servidor web (Apache/Nginx) instalados.
+   - Coloca la carpeta del proyecto en el directorio raíz de tu servidor (por ejemplo, `htdocs` para XAMPP).
+3. **Accede desde el navegador:**
+   - Abre `http://localhost/Gomoku` para empezar a jugar.
 
-4. **Automated Transaction Tracking:**
+## Resultado
 
-- The dashboard automatically tracks and records users' cryptocurrency transactions, simplifying the process of updating and managing portfolios.
-- Users can categorize transactions, add notes, and maintain a comprehensive transaction history.
+Gomoku es un proyecto divertido y funcional que demuestra la integración de tecnologías de frontend y backend para crear aplicaciones interactivas y multijugador en tiempo real. Está diseñado para que cualquiera pueda jugar y disfrutar de la estrategia del clásico juego japonés.
 
-5. **News and Market Insights:**
+---
 
-- A dedicated section provides real-time news and market insights relevant to users' cryptocurrency holdings.
-- Users can stay informed about market trends, regulatory developments, and news affecting their investment decisions.
-
-## Technology Stack
-
-- Frontend: React for a responsive and interactive user interface.
-- Backend: Django for server-side logic and API integration.
-- Database: PostgreSQL for efficient storage and retrieval of portfolio and market data.
-- API Integration: Integration with cryptocurrency exchange APIs for real-time market data.
-
-## Outcome
-
-CryptoTrader Dashboard has become a trusted companion for cryptocurrency investors, offering a consolidated and user-friendly platform for managing their portfolios. The robust analytics, real-time market data, and risk management tools empower users to make informed decisions and navigate the dynamic world of cryptocurrency with confidence.
-
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+**Hecho con pasión por [ManuelGonzalez709](https://github.com/ManuelGonzalez709). ¡Diviértete jugando Gomoku!**
