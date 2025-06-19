@@ -44,7 +44,7 @@ const siteConfig: SiteConfig = {
     subtitle: 'Desarrollador Full Stack',
     description: 'Portafolio personal de Manuel González: proyectos, artículos y más sobre desarrollo web, móvil y backend.',
     image: {
-        src: '/dante-preview.jpg',
+        src: '/portada.jpg',
         alt: 'Imagen destacada del portafolio de Manuel González'
     },
     headerNavLinks: [
@@ -65,7 +65,7 @@ const siteConfig: SiteConfig = {
         title: '¡Hola! Soy Manuel González',
         text: "Soy desarrollador de aplicaciones web y multiplataforma con experiencia en React, Laravel, Spring Boot y más. Me apasiona construir soluciones prácticas y eficientes, tanto en frontend como backend. Aquí podrás ver algunos de mis proyectos y publicaciones técnicas. Échales un vistazo y no dudes en ponerte en contacto conmigo si quieres colaborar.",
         image: {
-            src: '/dante-preview.jpg',
+            src: '/portada.jpg',
             alt: 'Manuel González trabajando frente al ordenador'
         },
         actions: [
