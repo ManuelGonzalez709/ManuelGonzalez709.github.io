@@ -1,39 +1,39 @@
 ---
-title: My First International Internship in ERP Development
-excerpt: In 2022, I had the opportunity to work in Italy with EXAGOGICA SRL. It was my first hands-on experience contributing to a live software project, and it taught me the value of clean code and documentation.
+title: Mi Primera Pasantía Internacional en Desarrollo ERP
+excerpt: En 2022, tuve la oportunidad de trabajar en Italia con EXAGOGICA SRL. Fue mi primera experiencia práctica contribuyendo a un proyecto de software en vivo, y me enseñó el valor del código limpio y la documentación.
 publishDate: 'Jun 15 2022'
 tags:
-  - Internship
+  - Pasantía
   - ERP
-  - Software Development
+  - Desarrollo de Software
 seo:
   image:
     src: '/pythonrpa.png'
-    alt: A programmer editing ERP code
+    alt: Programador editando código ERP
 ---
 
-![A programmer editing ERP code](/pythonrpa.png)
+![Programador editando código ERP](/pythonrpa.png)
 
-**Note:** This post reflects on my first real-world coding experience in Italy.
+**Nota:** Esta publicación refleja mi primera experiencia de codificación en el mundo real en Italia.
 
-In 2022, I joined **EXAGOGICA SRL** in Italy as part of an international internship program. I worked on:
+En 2022, me uní a **EXAGOGICA SRL** en Italia como parte de un programa internacional de pasantías. Trabajé en:
 
-- Developing a software module for an ERP system
-- Refactoring and optimizing existing code
-- Writing technical documentation for maintainability
+- Desarrollar un módulo de software para un sistema ERP
+- Refactorizar y optimizar código existente
+- Escribir documentación técnica para facilitar el mantenimiento
 
-## Highlights
+## Destacados
 
-1. **Code Optimization:** I understood the importance of efficiency and performance when writing backend logic.
-2. **Documentation Discipline:** Creating clear documentation for future maintainers was a key task.
-3. **International Work Culture:** Communicating in a multicultural environment improved both my technical and soft skills.
+1. **Optimización de código:** Comprendí la importancia de la eficiencia y el rendimiento al escribir lógica backend.
+2. **Disciplina en la documentación:** Crear documentación clara para futuros mantenedores fue una tarea clave.
+3. **Cultura laboral internacional:** Comunicarme en un entorno multicultural mejoró mis habilidades técnicas y blandas.
 
-## Lessons from the Experience
+## Lecciones de la Experiencia
 
-1. **Language Adaptation:** Working in an English-speaking environment helped improve my fluency.
-2. **Responsibility:** Despite being an intern, I was given ownership over real modules.
-3. **Version Control:** I gained practical experience with Git in a professional setting.
+1. **Adaptación lingüística:** Trabajar en un entorno angloparlante mejoró mi fluidez en inglés.
+2. **Responsabilidad:** Aunque era pasante, tuve propiedad sobre módulos reales.
+3. **Control de versiones:** Adquirí experiencia práctica con Git en un entorno profesional.
 
-> My first coding job abroad showed me that great software starts with strong fundamentals.
+> Mi primer trabajo de programación en el extranjero me enseñó que un gran software empieza por fundamentos sólidos.
 
-This internship was the springboard for my career in software development and confirmed my interest in backend engineering.
+Esta pasantía fue el trampolín para mi carrera en desarrollo de software y confirmó mi interés en la ingeniería backend.

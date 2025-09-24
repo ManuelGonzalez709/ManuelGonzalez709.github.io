@@ -1,40 +1,40 @@
 ---
-title: Building Scalable Applications at WUL4
-excerpt: In 2025, I worked as a Full Stack Developer at WUL4 in Córdoba, where I contributed to the development of a complete web application using modern technologies like Spring Boot, React, and TailwindCSS.
+title: Creando Aplicaciones Escalables en WUL4
+excerpt: En 2025, trabajé como Desarrollador Full Stack en WUL4 en Córdoba, donde contribuí al desarrollo de una aplicación web completa usando tecnologías modernas como Spring Boot, React y TailwindCSS.
 publishDate: 'Apr 5 2025'
 tags:
-  - Experience
+  - Experiencia
   - Full Stack
   - Java
   - React
 seo:
   image:
     src: '/fullStack.webp'
-    alt: Code editor showing React and Java
+    alt: Editor de código mostrando React y Java
 ---
 
-![Code editor showing React and Java](/fullStack.webp)
+![Editor de código mostrando React y Java](/fullStack.webp)
 
-**Note:** This post details my full stack development experience at WUL4 in 2025.
+**Nota:** Esta publicación detalla mi experiencia de desarrollo full stack en WUL4 en 2025.
 
-At WUL4, I built a responsive web application by combining backend and frontend technologies:
+En WUL4, desarrollé una aplicación web responsiva combinando tecnologías backend y frontend:
 
-- Developed a **RESTful API** with Spring Boot for managing data and business logic
-- Designed a responsive **frontend with React and TailwindCSS**
-- Used Git and GitHub for version control in a collaborative workflow
+- Desarrollé una **API RESTful** con Spring Boot para la gestión de datos y lógica de negocio
+- Diseñé un **frontend responsivo con React y TailwindCSS**
+- Utilicé Git y GitHub para el control de versiones en un flujo de trabajo colaborativo
 
-## Skills Applied
+## Habilidades Aplicadas
 
-1. **Clean Code Practices:** Learned to structure both Java and JavaScript code for clarity and reusability.
-2. **Frontend-Backend Communication:** Understood how to design RESTful endpoints for a React frontend.
-3. **Team Collaboration:** Collaborated via GitHub with other developers and practiced agile methodologies.
+1. **Prácticas de código limpio:** Aprendí a estructurar código en Java y JavaScript para mayor claridad y reutilización.
+2. **Comunicación frontend-backend:** Entendí cómo diseñar endpoints RESTful para un frontend en React.
+3. **Colaboración en equipo:** Colaboré vía GitHub con otros desarrolladores y practiqué metodologías ágiles.
 
-## What I Found Challenging
+## Lo Que Me Resultó Desafiante
 
-1. **Syncing APIs with Frontend:** Ensuring consistent data flow between frontend and backend required careful planning.
-2. **UI Consistency:** TailwindCSS required precision in class management for consistent design.
-3. **Deployment Readiness:** Preparing the app for deployment added extra QA and configuration steps.
+1. **Sincronización entre APIs y frontend:** Asegurar el flujo de datos consistente entre frontend y backend requirió planificación cuidadosa.
+2. **Consistencia en el diseño:** TailwindCSS exigía precisión en la gestión de clases para mantener el diseño uniforme.
+3. **Preparación para despliegue:** Preparar la app para producción añadió pasos extra de QA y configuración.
 
-> Building full stack applications taught me how each layer contributes to the final product.
+> Crear aplicaciones full stack me enseñó cómo cada capa contribuye al producto final.
 
-This internship solidified my desire to grow as a full stack developer and confirmed my passion for delivering complete, functional applications.
+Esta pasantía consolidó mi deseo de crecer como desarrollador full stack y confirmó mi pasión por entregar aplicaciones completas y funcionales.
